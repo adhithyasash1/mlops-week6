@@ -14,7 +14,7 @@ env:
 
   # Google Artifact Registry details
   GAR_LOCATION: us-central1 # Change to your registry's location
-  REPOSITORY: iris-repo # Change to your repository name in GAR
+  REPOSITORY: my-repo # Change to your repository name in GAR
   IMAGE_NAME: iris-api
 
 jobs:
