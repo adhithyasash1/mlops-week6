@@ -12,16 +12,17 @@ spec:
     metadata:
       labels:
         app: iris-api
-  spec:
-    containers:
-    - name: iris-api-container
-      image: __IMAGE_TAG__
-      ports:
-      - containerPort: 8000
-      resources:
-        requests:
-          memory: "512Mi" # Reduced from 2Gi
-          cpu: "250m"    # Reduced from 500m
-        limits:
-          memory: "1Gi"
-          cpu: "500m"
+    spec:
+      containers:
+      - name: iris-api-container
+        image: __IMAGE_TAG__ # This placeholder will be updated by your CI/CD pipeline
+        ports:
+        - containerPort: 8000
+        # Ensure this block has the correct indentation
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
