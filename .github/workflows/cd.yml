@@ -26,6 +26,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Set up CML
+        uses: iterative/setup-cml@v2
+
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v2
         with:
@@ -77,7 +80,7 @@ jobs:
           # Write the CML report in markdown
           echo "🚀 Deployment successful!" > report.md
           echo "App deployed to Kubernetes and is available at: [http://${SERVICE_IP}](http://${SERVICE_IP})" >> report.md
-          echo "Image tag: `${{ env.IMAGE_TAG }}`" >> report.md
+          echo "Image tag: ${{ env.IMAGE_TAG }}" >> report.md
           
           # Post the comment on the commit
           cml comment create report.md
