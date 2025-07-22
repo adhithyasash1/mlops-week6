@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/d4faf0e988444f1fb380d696b9b4b6ac/artifacts
+end_time: 1750954666932
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: d4faf0e988444f1fb380d696b9b4b6ac
+run_name: learned-koi-511
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750954655015
+status: 3
+tags: []
+user_id: jupyter

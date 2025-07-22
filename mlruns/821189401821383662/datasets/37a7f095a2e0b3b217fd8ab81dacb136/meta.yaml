@@ -1,0 +1,10 @@
+digest: be1745bb
+name: dataset
+profile: '{"num_rows": 5, "num_elements": 20}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "sepal_length", "required":
+  true}, {"type": "double", "name": "sepal_width", "required": true}, {"type": "double",
+  "name": "petal_length", "required": true}, {"type": "double", "name": "petal_width",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "jupyter", "mlflow.source.name": "/opt/conda/lib/python3.10/site-packages/ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

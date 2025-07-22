@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/6228093a3e8245e29919e3ca288e26ef/artifacts
+end_time: 1751712201733
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: 6228093a3e8245e29919e3ca288e26ef
+run_name: likeable-mule-563
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751712192446
+status: 3
+tags: []
+user_id: jupyter

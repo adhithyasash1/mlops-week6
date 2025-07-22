@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/6ef15e75c3e14460a621cebc756d07ea/artifacts
+end_time: 1751711730446
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: 6ef15e75c3e14460a621cebc756d07ea
+run_name: calm-swan-216
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751711723939
+status: 3
+tags: []
+user_id: jupyter

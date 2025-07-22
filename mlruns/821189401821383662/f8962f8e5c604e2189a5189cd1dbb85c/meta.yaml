@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/f8962f8e5c604e2189a5189cd1dbb85c/artifacts
+end_time: 1751711710477
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: f8962f8e5c604e2189a5189cd1dbb85c
+run_name: upset-ant-788
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751711693300
+status: 3
+tags: []
+user_id: jupyter

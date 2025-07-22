@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/cbc16b437dae443f808cecad3cbf6ffa/artifacts
+end_time: 1751711717066
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: cbc16b437dae443f808cecad3cbf6ffa
+run_name: burly-cub-820
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751711710497
+status: 3
+tags: []
+user_id: jupyter

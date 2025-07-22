@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/990810875015209673
+creation_time: 1750949772216
+experiment_id: '990810875015209673'
+last_update_time: 1750949772216
+lifecycle_stage: active
+name: 'IRIS classifier: MLflow Quickstart'

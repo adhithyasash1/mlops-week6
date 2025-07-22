@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/52f666d4a9d842749ad44975686fe795/artifacts
+end_time: 1751712251183
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: 52f666d4a9d842749ad44975686fe795
+run_name: suave-asp-361
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751712242417
+status: 3
+tags: []
+user_id: jupyter

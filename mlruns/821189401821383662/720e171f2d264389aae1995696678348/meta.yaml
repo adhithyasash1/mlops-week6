@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/720e171f2d264389aae1995696678348/artifacts
+end_time: 1751712242382
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: 720e171f2d264389aae1995696678348
+run_name: luminous-auk-794
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751712235493
+status: 3
+tags: []
+user_id: jupyter

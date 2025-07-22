@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/49f3eb77d39a4a25bde818747e9e7ceb/artifacts
+end_time: 1751711744298
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: 49f3eb77d39a4a25bde818747e9e7ceb
+run_name: bedecked-vole-76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751711737700
+status: 3
+tags: []
+user_id: jupyter

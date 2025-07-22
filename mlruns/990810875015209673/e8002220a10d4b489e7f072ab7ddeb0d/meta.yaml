@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/990810875015209673/e8002220a10d4b489e7f072ab7ddeb0d/artifacts
+end_time: 1750951977803
+entry_point_name: ''
+experiment_id: '990810875015209673'
+lifecycle_stage: active
+run_id: e8002220a10d4b489e7f072ab7ddeb0d
+run_name: suave-flea-601
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750951974805
+status: 3
+tags: []
+user_id: jupyter

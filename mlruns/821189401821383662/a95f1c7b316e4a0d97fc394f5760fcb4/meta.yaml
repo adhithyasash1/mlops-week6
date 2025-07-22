@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/a95f1c7b316e4a0d97fc394f5760fcb4/artifacts
+end_time: 1750954689889
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: a95f1c7b316e4a0d97fc394f5760fcb4
+run_name: efficient-shad-788
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750954680757
+status: 3
+tags: []
+user_id: jupyter

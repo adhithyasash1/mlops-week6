@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/63f9cf8bf53b4589807e7a2b41b15584/artifacts
+end_time: 1750954696504
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: 63f9cf8bf53b4589807e7a2b41b15584
+run_name: carefree-bird-276
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750954689916
+status: 3
+tags: []
+user_id: jupyter

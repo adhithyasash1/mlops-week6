@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/990810875015209673/c072dbea55694c52876e0c571fa5c5f0/artifacts
+deleted_time: 1750952021343
+end_time: 1750951679159
+entry_point_name: ''
+experiment_id: '990810875015209673'
+lifecycle_stage: deleted
+run_id: c072dbea55694c52876e0c571fa5c5f0
+run_name: marvelous-mink-684
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750951679129
+status: 4
+tags: []
+user_id: jupyter

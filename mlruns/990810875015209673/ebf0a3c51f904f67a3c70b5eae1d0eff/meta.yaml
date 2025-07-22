@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/990810875015209673/ebf0a3c51f904f67a3c70b5eae1d0eff/artifacts
+end_time: 1750952279780
+entry_point_name: ''
+experiment_id: '990810875015209673'
+lifecycle_stage: active
+run_id: ebf0a3c51f904f67a3c70b5eae1d0eff
+run_name: skittish-auk-653
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750952276398
+status: 3
+tags: []
+user_id: jupyter

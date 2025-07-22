@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/990810875015209673/152a1fd270604eb19c74a27a291fad91/artifacts
+end_time: 1750951929708
+entry_point_name: ''
+experiment_id: '990810875015209673'
+lifecycle_stage: active
+run_id: 152a1fd270604eb19c74a27a291fad91
+run_name: bittersweet-skink-57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750951926781
+status: 3
+tags: []
+user_id: jupyter

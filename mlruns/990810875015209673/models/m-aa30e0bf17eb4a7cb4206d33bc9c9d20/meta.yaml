@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/990810875015209673/models/m-aa30e0bf17eb4a7cb4206d33bc9c9d20/artifacts
+creation_timestamp: 1750952276462
+experiment_id: '990810875015209673'
+last_updated_timestamp: 1750952279731
+model_id: m-aa30e0bf17eb4a7cb4206d33bc9c9d20
+model_type: ''
+name: iris_decision_tree_model
+source_run_id: ebf0a3c51f904f67a3c70b5eae1d0eff
+status: 2
+status_message: null

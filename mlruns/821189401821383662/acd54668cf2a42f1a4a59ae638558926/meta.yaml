@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/acd54668cf2a42f1a4a59ae638558926/artifacts
+end_time: 1751711723919
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: acd54668cf2a42f1a4a59ae638558926
+run_name: intelligent-bird-631
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751711717088
+status: 3
+tags: []
+user_id: jupyter

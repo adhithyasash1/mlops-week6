@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/01876b0145194288ac8833cabc058cdb/artifacts
+end_time: 1751712221701
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: 01876b0145194288ac8833cabc058cdb
+run_name: trusting-auk-149
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751712214789
+status: 3
+tags: []
+user_id: jupyter

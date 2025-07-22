@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/f8e70575c4d64599a45a0ad28677edab/artifacts
+end_time: 1750954717436
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: f8e70575c4d64599a45a0ad28677edab
+run_name: sneaky-dove-413
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750954710816
+status: 3
+tags: []
+user_id: jupyter

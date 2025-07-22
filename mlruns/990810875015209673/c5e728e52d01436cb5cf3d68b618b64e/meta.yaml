@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/990810875015209673/c5e728e52d01436cb5cf3d68b618b64e/artifacts
+end_time: 1750953047579
+entry_point_name: ''
+experiment_id: '990810875015209673'
+lifecycle_stage: active
+run_id: c5e728e52d01436cb5cf3d68b618b64e
+run_name: omniscient-boar-903
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750953044593
+status: 3
+tags: []
+user_id: jupyter

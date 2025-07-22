@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/821189401821383662/908688f95d66420093b2a67e57d56b46/artifacts
+end_time: 1751712208328
+entry_point_name: ''
+experiment_id: '821189401821383662'
+lifecycle_stage: active
+run_id: 908688f95d66420093b2a67e57d56b46
+run_name: wise-panda-590
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751712201755
+status: 3
+tags: []
+user_id: jupyter

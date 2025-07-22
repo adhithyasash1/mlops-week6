@@ -1,0 +1,187 @@
+Script started on 2025-07-05 15:39:27+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="129" LINES="48"]
+[?2004h(base) ]0;sashiradhithya_gmail_com@instance-20250615-213952: ~/docker_iris[01;32msashiradhithya_gmail_com@instance-20250615-213952[00m:[01;34m~/docker_iris[00m$ ls
+[?2004lDockerfile  main.py  model.joblib  requirements.txt  terminal_log.txt
+[?2004h(base) ]0;sashiradhithya_gmail_com@instance-20250615-213952: ~/docker_iris[01;32msashiradhithya_gmail_com@instance-20250615-213952[00m:[01;34m~/docker_iris[00m$ [7mls terminal_log.txt[27mls terminal_log.txt
+[?2004lterminal_log.txt
+[?2004h(base) ]0;sashiradhithya_gmail_com@instance-20250615-213952: ~/docker_iris[01;32msashiradhithya_gmail_com@instance-20250615-213952[00m:[01;34m~/docker_iris[00m$ [7mgcloud compute scp <INSTANCE_NAME>:~/terminal_log.txt . -[27m[7m-[27m[7mzone=<ZONE>[27m[A(base) ]0;sashiradhithya_gmail_com@instance-20250615-213952: ~/docker_iris[01;32msashiradhithya_gmail_com@instance-20250615-213952[00m:[01;34m~/docker_iris[00m$ gcloud compute scp <INSTANCE_NAME>:~/terminal_log.txt . --[1Pzone=<ZONE[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgcloud compute instances
+[?2004l[1;31mERROR:[0m (gcloud.compute.instances) Command name argument expected.
+
+[m[1mAvailable groups for gcloud compute instances:[m
+
+      bulk                    Manipulate multiple Compute Engine virtual
+                              machines with single command executions.
+      network-interfaces      Read and manipulate Compute Engine instance
+                              network interfaces.
+      ops-agents              Manage Google Cloud Observability agents for
+                              Compute Engine VM instances.
+      os-inventory            Read Compute Engine OS Inventory Data and Related
+                              Resources.
+
+[m[1mAvailable commands for gcloud compute instances:[m
+
+      add-access-config           Create a Compute Engine virtual machine access
+                                  configuration.
+      add-iam-policy-binding      Add IAM policy binding to a Compute Engine
+                                  instance.
+      add-labels                  Add labels to Google Compute Engine virtual
+                                  machine instances.
+      add-metadata                Add or update instance metadata.
+      add-resource-policies       Add resource policies to Compute Engine VM
+                                  instances.
+      add-tags                    Add tags to Compute Engine virtual machine
+                                  instances.
+      attach-disk                 Attach a disk to an instance.
+      create                      Create Compute Engine virtual machine
+                                  instances.
+      create-with-container       Creates Compute Engine virtual machine
+                                  instances running     container images.
+      delete                      Delete Compute Engine virtual machine
+                                  instances.
+      delete-access-config        Delete an access configuration from a virtual
+                                  machine network interface.
+      describe                    Describe a virtual machine instance.
+      detach-disk                 Detach disks from Compute Engine virtual
+                                  machine instances.
+      export                      Export a Compute Engine virtual machine
+                                  instance's configuration to a file.
+      get-guest-attributes        Get the Guest Attributes for a compute
+                                  instance.
+      get-iam-policy              Get the IAM policy for a Compute Engine
+                                  instance.
+      get-screenshot              Capture a screenshot (JPEG image) of the
+                                  virtual machine instance's display.
+      get-serial-port-output      Read output from a virtual machine instance's
+                                  serial port.
+      get-shielded-identity       Get the Shielded identity for a Compute Engine
+                                  instance.
+      import                      Create Compute Engine virtual machine
+                                  instances from virtual appliance in OVA/OVF
+                                  format.
+      list                        List Compute Engine instances.
+      move                        *(DEPRECATED)*  Move an instance and its
+                                  attached persistent disks between zones.
+      perform-maintenance         Perform maintenance of Google Compute Engine
+                                  instance.
+      remove-iam-policy-binding   Remove IAM policy binding from a Compute
+                                  Engine instance.
+      remove-labels               Remove labels from Google Compute Engine
+                                  virtual machine instances.
+      remove-metadata             Remove instance metadata.
+      remove-resource-policies    Remove resource policies from Compute Engine
+                                  VM instances.
+      remove-tags                 Remove tags from Compute Engine virtual
+                                  machine instances.
+      report-host-as-faulty       Report a host as faulty to start the repair
+                                  process.
+      reset                       Reset a virtual machine instance.
+      resume                      Resume a virtual machine instance.
+      send-diagnostic-interrupt   Send a diagnostic interrupt to a virtual
+                                  machine instance.
+      set-disk-auto-delete        Set auto-delete behavior for disks.
+      set-iam-policy              Set IAM policy for a Compute Engine instance.
+      set-machine-type            Set machine type for Compute Engine virtual
+                                  machines.
+      set-name                    Set the name of a Compute Engine virtual
+                                  machine.
+      set-scheduling              Set scheduling options for Compute Engine
+                                  virtual machines.
+      set-service-account         Set a service account and access scopes for a
+                                  Compute Engine VM instance.
+      simulate-maintenance-event  Simulate host maintenance of VM instances.
+      start                       Start a stopped virtual machine instance.
+      stop                        Stop a virtual machine instance.
+      suspend                     Suspend a virtual machine instance.
+      tail-serial-port-output     Periodically fetch new output from a virtual
+                                  machine instance's serial port and display it
+                                  as it becomes available.
+      update                      Update a Compute Engine virtual machine.
+      update-access-config        Update a Compute Engine virtual machine access
+                                  configuration.
+      update-container            Updates Compute Engine virtual machine
+                                  instances running container     images.
+      update-from-file            Update a Compute Engine virtual machine
+                                  instance using a configuration file.
+
+[mFor detailed information on this command and its flags, run:
+  gcloud compute instances --help
+[?2004h(base) ]0;sashiradhithya_gmail_com@instance-20250615-213952: ~/docker_iris[01;32msashiradhithya_gmail_com@instance-20250615-213952[00m:[01;34m~/docker_iris[00m$ [7mzip logs.zip terminal_log.txt[27m
+[7mgsutil cp logs.zip gs://<your-bucket-name>/[27m[A(base) ]0;sashiradhithya_gmail_com@instance-20250615-213952: ~/docker_iris[01;32msashiradhithya_gmail_com@instance-20250615-213952[00m:[01;34m~/docker_iris[00m$ zip logs.zip terminal_log.txt
+gsutil cp logs.zip gs://<your-bucket-name>/
+[?2004l  adding: terminal_log.txt (deflated 79%)
+bash: your-bucket-name: No such file or directory
+[?2004h(base) ]0;sashiradhithya_gmail_com@instance-20250615-213952: ~/docker_iris[01;32msashiradhithya_gmail_com@instance-20250615-213952[00m:[01;34m~/docker_iris[00m$ [7mgsutil cp logs.zip gs://mlops-course-true-sprite-459511-f[27m[7m5[27m[7m-unique/[27m[A(base) ]0;sashiradhithya_gmail_com@instance-20250615-213952: ~/docker_iris[01;32msashiradhithya_gmail_com@instance-20250615-213952[00m:[01;34m~/docker_iris[00m$ gsutil cp logs.zip gs://mlops-course-true-sprite-459511-f5-unique/
+[?2004lCopying file://logs.zip [Content-Type=application/zip]...
+/ [0 files][    0.0 B/  1.8 KiB]                                                AccessDeniedException: 403 89040534681-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).
+[?2004h(base) ]0;sashiradhithya_gmail_com@instance-20250615-213952: ~/docker_iris[01;32msashiradhithya_gmail_com@instance-20250615-213952[00m:[01;34m~/docker_iris[00m$ hisotry[K[K[K[Ktory
+[?2004l    1  screen
+    2  screen list
+    3  screen -list
+    4  screen -r mlflow_exe
+    5  screen -S mlflow_exe
+    6  screen -list
+    7  pip install mlflow
+    8  mlflow server --host 0.0.0.0 --port 8100
+    9  pip install mlflow
+   10  mlflow server --host 0.0.0.0 --port 8100
+   11  exit
+   12  screen -list
+   13  screen -r mlflow_exe
+   14  screen list
+   15  screen -list
+   16  screen -S mlflow_exe
+   17  screen -list
+   18  screen -r mlflow_exe
+   19  clear
+   20  screen -r mlflow_exe
+   21  screen -list
+   22  clear
+   23  screen -list
+   24  screen -S mlflow_exe
+   25  screen -list
+   26  screen -r mlflow_exe
+   27  screen -list
+   28  clear
+   29  screen -list
+   30  screen -r mlflow_exe
+   31  mlflow server --host 0.0.0.0 --port 8100
+   32  screen list
+   33  screen -list
+   34  ls
+   35  cd mlruns
+   36  ls
+   37  cd ..
+   38  gsutil ls gs://mlops-bucket-week1/models/
+   39  gs://mlops-course-true-sprite-459511-f5-unique/my-models/iris-classifier-week-1/model.joblib
+   40  clear
+   41  wget https://storage.googleapis.com/mlops-course-true-sprite-459511-f5-unique/my-models/iris-classifier-week-1/model.joblib
+   42  clear
+   43  wget https://storage.googleapis.com/mlops-course-true-sprite-459511-f5-unique/my-models/iris-classifier-week-1/model.joblib
+   44  ls
+   45  nano main.py
+   46  ls
+   47  uvicorn main:app --reload --host 0.0.0.0
+   48  ls
+   49  mkdir fast_iris
+   50  mv main.py fast_iris
+   51  mv model.joblib fast_iris
+   52  ls
+   53  mkdir docker_iris
+   54  cd docker_iris
+   55  ls
+   56  ls -lh
+   57  cp fast_iris/main.py docker_iris/
+   58  cd ..
+   59  cp fast_iris/main.py docker_iris/
+   60  cp fast_iris/model.joblib docker_iris/
+   61  ls
+   62  cd docker_iris
+   63  ls
+   64  sudo usermod -aG docker $USER
+   65  docker build main.py
+   66  docker build -t main.py
+   67  cat > requirements.txt <<EOF
+   68  fastapi
+   69  uvicorn
+   70  scikit-learn
+   71  joblib
