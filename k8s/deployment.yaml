@@ -12,9 +12,16 @@ spec:
     metadata:
       labels:
         app: iris-api
-    spec:
-      containers:
-      - name: iris-api-container
-        image: __IMAGE_TAG__ # Placeholder for the Docker image
-        ports:
-        - containerPort: 8000
+  spec:
+    containers:
+    - name: iris-api-container
+      image: __IMAGE_TAG__
+      ports:
+      - containerPort: 8000
+      resources:
+        requests:
+          memory: "512Mi" # Reduced from 2Gi
+          cpu: "250m"    # Reduced from 500m
+        limits:
+          memory: "1Gi"
+          cpu: "500m"
