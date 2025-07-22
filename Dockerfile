@@ -13,7 +13,7 @@ COPY poetry.lock pyproject.toml ./
 
 # Install dependencies
 RUN poetry config virtualenvs.create false && \
-    poetry install --no-root
+    poetry install --no-root --without dev
 
 # ---- Final Stage ----
 FROM python:3.10-slim
@@ -26,7 +26,10 @@ USER appuser
 
 # Copy installed packages from the builder stage
 COPY --from=builder /usr/local/lib/python3.10/site-packages /usr/local/lib/python3.10/site-packages
-COPY --from=builder /app /app
+
+# ---- THIS IS THE MISSING LINE ----
+# Copy the executables (like uvicorn) from the builder stage
+COPY --from=builder /usr/local/bin /usr/local/bin
 
 # Copy your application code and model
 COPY ./fast_iris/main.py .
