@@ -15,10 +15,9 @@ spec:
     spec:
       containers:
       - name: iris-api-container
-        image: __IMAGE_TAG__ # This placeholder will be updated by your CI/CD pipeline
+        image: __IMAGE_TAG__
         ports:
         - containerPort: 8000
-        # Ensure this block has the correct indentation
         resources:
           requests:
             memory: "512Mi"
