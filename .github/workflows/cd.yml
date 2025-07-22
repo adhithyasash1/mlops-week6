@@ -1,6 +1,11 @@
 # .github/workflows/cd.yml
 name: CD - Deploy Iris API to K8s
 
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+  statuses: write
 on:
   push:
     branches:
