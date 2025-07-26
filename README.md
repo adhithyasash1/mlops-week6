@@ -1,4 +1,4 @@
-# Week 7 GA Sashi Adhithya 21f3000611
+# Week 6 GA Sashi Adhithya 21f3000611
 
 ## Objective
 Build and deploy a FastAPI application that predicts iris species using a trained ML model. The application must be containerized, pushed to Artifact Registry, and deployed on GKE using GitHub Actions and CML.
